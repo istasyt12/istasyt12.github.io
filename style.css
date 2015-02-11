@@ -1,0 +1,105 @@
+/* A Free Design by Bryant Smith (bryantsmith.com) */
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #061C37;
+	background-color: white;
+	
+}
+*
+{
+  margin: 0 auto 0 auto;
+ }
+
+#container
+{
+  display: block; 
+  height:1000px;
+  position: relative; 
+  width: 940px;
+  background-image: 
+}
+
+#mainpic h1
+{
+
+position:absolute;
+text-align:right;
+font-size:40px;
+color:black;
+left:400px;
+top:220px;
+}
+
+
+#mainpic
+{
+
+background-repeat:no-repeat;
+width:900px;
+height:354px;	
+}
+
+
+.lighter
+{
+color:#F2D76A;
+	
+}
+
+#menu
+{
+
+background-color:white;
+width:940px;
+height:70px;
+
+}
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:900px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline;
+	
+	
+	
+}
+
+#menu a,#menu a:visited {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	color:#3C3504;
+	font-weight: bold;
+	padding-top: 16px;
+	font-size: 30px;
+}
+
+#menu a:hover{
+	color:#B39311;
+}
+
+
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
