@@ -1,10 +1,7 @@
-/* A Free Design by Bryant Smith (bryantsmith.com) */
-
-
 
 body {
-	margin: 0;
-	padding: 0;
+	margin-top: 0px;
+	padding:0px ;
 	text-align: left;
 	font: Arial, Helvetica, sans-serif;
 	font-size: 14px;
@@ -19,22 +16,22 @@ body {
 
 #container
 {
-  display: block; 
+  
   height:1000px;
   position: relative; 
-  width: 940px;
-  background-image: 
+  width:900px;
+  background-image: url(main.jpg)
+  
 }
 
 #mainpic h1
 {
 
 position:absolute;
-text-align:right;
-font-size:40px;
-color:black;
-left:400px;
-top:220px;
+text-align:left;
+font-size:50px;
+color:white;
+top:250px;
 }
 
 
@@ -56,26 +53,21 @@ color:#F2D76A;
 #menu
 {
 
-background-color:white;
+background-color: White;
 width:940px;
 height:70px;
 
 }
-
-
 #menu ul {
 	list-style: none;
 	padding: 0px;
 	margin-left:auto;
 	width:900px;
 }
-
 #menu li {
 	list-style: none;
 	padding: 0px;	
 	display: inline;
-	
-	
 	
 }
 
@@ -91,15 +83,65 @@ height:70px;
 	padding-top: 16px;
 	font-size: 30px;
 }
-
-#menu a:hover{
-	color:#B39311;
+#menu1 li{
+	font-size:40px;
+	list-style: none;
+	padding: 0px;	
+	display: inline;
+}
+#menu1 ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:1000px;
 }
 
+#menu1 a,#menu1 a:visited {
+	float: left;
+	width: 200px;
+	height: 30px;
+	display: inline;
+	text-align: centre ;
+	text-decoration: none;
+	color:#3C3504;
+	font-weight: bold;
+	padding-top: 50px;
+	font-size: 30px;
+	
+}
+#container1
+{
+  height:1000px;
+  position: relative; 
+  width:900px;
+  
+ }
+
+#mainpic1
+{
+
+background-repeat:no-repeat;
+width:600px;
+height:50px;
+
+}
+#mainpic1 h1
+{
+
+position:absolute;
+font-size:50px;
+top:0px;
+}
 
 
 
 html, body {
-text-align: center;
+text-align: centre;
 }
-p {text-align: left;}
+p {
+text-align: left;
+margin-top: 150px;
+font-family: Verdana;
+font-size: 14px;
+
+}
