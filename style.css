@@ -26,12 +26,13 @@ body {
 
 #mainpic h1
 {
-
+border: 29px solid white;
 position:absolute;
 text-align:left;
-font-size:50px;
+font-size:40px;
 color:white;
-top:250px;
+top:240px;
+
 }
 
 
@@ -88,25 +89,32 @@ height:70px;
 	list-style: none;
 	padding: 0px;	
 	display: inline;
+	
 }
 #menu1 ul {
 	list-style: none;
 	padding: 0px;
 	margin-left:auto;
 	width:1000px;
+	
 }
 
 #menu1 a,#menu1 a:visited {
 	float: left;
-	width: 200px;
-	height: 30px;
+	width: 180px;
+	height: 50px;
+	margin-top: 40px;
 	display: inline;
-	text-align: centre ;
+	text-align: ;
 	text-decoration: none;
-	color:#3C3504;
+	color:White;
 	font-weight: bold;
-	padding-top: 50px;
+	padding-top: 25px;
+	padding-left:20px;
 	font-size: 30px;
+	border: 2px dashed white;
+    border-radius: 25px;
+	background-color:#2E140C;
 	
 }
 #container1
@@ -127,12 +135,20 @@ height:50px;
 }
 #mainpic1 h1
 {
-
+text-decoratio: underline;
 position:absolute;
 font-size:50px;
 top:0px;
+color:#2E140C;
+text-shadow: 5px 5px 5px #AB938C
 }
 
+table{
+margin-top:150px;
+margin-left:0px;
+font-size:50px;
+color:black;
+}
 
 
 html, body {
@@ -142,6 +158,6 @@ p {
 text-align: left;
 margin-top: 150px;
 font-family: Verdana;
-font-size: 14px;
-
+font-size: 20px;
+color:black;
 }
