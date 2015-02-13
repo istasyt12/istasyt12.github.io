@@ -147,7 +147,11 @@ table{
 margin-top:150px;
 margin-left:0px;
 font-size:50px;
-color:black;
+
+
+}
+tr td{
+border: 1px solid black;
 }
 
 
