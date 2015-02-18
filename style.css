@@ -7,7 +7,6 @@ body {
 	font-size: 14px;
 	color: #061C37;
 	background-color: white;
-	
 }
 *
 {
@@ -83,6 +82,8 @@ height:70px;
 	font-weight: bold;
 	padding-top: 16px;
 	font-size: 30px;
+
+ 
 }
 #menu1 li{
 	font-size:40px;
@@ -135,7 +136,7 @@ height:50px;
 }
 #mainpic1 h1
 {
-text-decoratio: underline;
+
 position:absolute;
 font-size:50px;
 top:0px;
@@ -150,18 +151,22 @@ font-size:50px;
 
 
 }
-tr td{
-border: 1px solid black;
-}
-
 
 html, body {
 text-align: centre;
 }
 p {
 text-align: left;
-margin-top: 150px;
+margin-top: 180px;
 font-family: Verdana;
 font-size: 20px;
 color:black;
+}
+
+#aboutpage{
+margin-top: 5px;
+margin-left: 5px;
+}
+#tablehead{
+color: black;
 }
