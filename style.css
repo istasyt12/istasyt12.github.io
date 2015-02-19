@@ -17,17 +17,18 @@ body {
   height:1000px;
   position: relative; 
   width:900px;
-  background-image: url(main.jpg)
+  background-image: url(wardrobe.jpg)
 }
 
 
 #mainpic h1{
-border: 29px solid white;
+border: 15px solid white;
 position:absolute;
 text-align:left;
-font-size:40px;
+font-size:50px;
 color:white;
-top:220px;
+top:200px;
+text-shadow: 5px 5px 5px black;
 }
 
 
@@ -86,7 +87,6 @@ height:70px;
 	height: 50px;
 	margin-top: 40px;
 	display: inline;
-	text-align: ;
 	text-decoration: none;
 	color:White;
 	font-weight: bold;
